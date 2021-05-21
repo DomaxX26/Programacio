@@ -1,7 +1,10 @@
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.Iterator;
 import javax.sql.*;
 
 public class ConectaBD {
+
 
 	 private Connection con;
 	    private Statement stat;
@@ -31,5 +34,6 @@ public class ConectaBD {
 	        }
 	        return rs;
 	        }
+
 }	
 
